@@ -1,0 +1,5 @@
+*.zip
+# *.sql
+*.tar.gz
+*.tar.bz
+/asset/css/styles.css
