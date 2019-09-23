@@ -1,272 +1,137 @@
-<?php
-$mod_kategori = [
-    1 => [
-        'gambar' => 'furniture.jpg',
-        'judul' => 'Furniture',
-    ],
-    [
-        'gambar' => 'houseware.jpg',
-        'judul' => 'Houseware',
-    ],
-    [
-        'gambar' => 'tableware.jpg',
-        'judul' => 'Tableware',
-    ],
-    [
-        'gambar' => 'container.jpg',
-        'judul' => 'Container',
-    ]
-];
-?>
-
-
-
 <section class="home-sec-1">
 	<div class="prelative container">
 		<div class="row">
-			<div class="title-top">
-				<p>Kategori Favorit Produk Plastik Lucky Star</p>
+			<div class="col-md-30">
+				<div class="box-content-image">
+					<img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl ?>home1.jpg" alt="">
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<?php foreach($mod_kategori as $key => $value): ?>
-				<div class="col-md-15 col-30">
-					<div class="image">
-						<a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>">
-						<img class="w-100" src="<?php echo $this->assetBaseurl; ?><?php echo $value['gambar'] ?>" alt="">
-						</a>
+			<div class="col-md-30">
+				<div class="box-content">
+					<div class="number">
+						<div class="images">
+							<img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl ?>01.png" alt="">
+						</div>
+						<h5>Namas Approach</h5>
 					</div>
 					<div class="title">
-						<p><a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>"><?php echo $value['judul'] ?></a></p>
+						<h3>For a smooth & punctual delivery, we go by a <u>breakthrough approach</u> where no one can.</h3>
+						<p>With strong Indonesian roots and local custom knowledge, we are superior amongst others when it comes to to manage your logistics needs. Adding unique value to the services, your cargo is in the best hands. We are always ahead in thinking of solutions, anticipating the right move at the right time. A breakthrough that we invite you all to experience, a challenging powerful team at your side.</p>
+						<button class="learn-more"><a href="#">Learn More</a></button>
 					</div>
-					<div class="lihat_kat">
-						<a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>">lihat kategori</a>
-					</div>
-				</div>
-			<?php endforeach ?>
-		</div>
-	</div>
-</section>
-
-<?php
-$mod_fav = [
-    1 => [
-        'gambar' => 'favorite1.jpg',
-        'judul' => 'Baki Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite2.jpg',
-        'judul' => 'Baki Anyam Kecil',
-    ],
-    [
-        'gambar' => 'favorite3.jpg',
-        'judul' => 'Keranjang Anyam Bundar',
-    ],
-    [
-        'gambar' => 'favorite4.jpg',
-        'judul' => 'Keranjang Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite5.jpg',
-        'judul' => 'Pel pelan plastik',
-    ],
-    [
-        'gambar' => 'favorite6.jpg',
-        'judul' => 'Pemeras Jeruk',
-    ],
-    [
-        'gambar' => 'favorite7.jpg',
-        'judul' => 'Baki Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite8.jpg',
-        'judul' => 'Baki Anyam Kecil',
-    ],
-    [
-        'gambar' => 'favorite9.jpg',
-        'judul' => 'Keranjang Anyam Bundar',
-    ],
-    [
-        'gambar' => 'favorite10.jpg',
-        'judul' => 'Keranjang Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite11.jpg',
-        'judul' => 'Pel pelan plastik',
-    ],
-    [
-        'gambar' => 'favorite12.jpg',
-        'judul' => 'Pemeras Jeruk',
-    ],
-    [
-        'gambar' => 'favorite13.jpg',
-        'judul' => 'Baki Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite14.jpg',
-        'judul' => 'Baki Anyam Kecil',
-    ],
-    [
-        'gambar' => 'favorite15.jpg',
-        'judul' => 'Keranjang Anyam Bundar',
-    ],
-    [
-        'gambar' => 'favorite16.jpg',
-        'judul' => 'Keranjang Anyam Besar',
-    ],
-    [
-        'gambar' => 'favorite17.jpg',
-        'judul' => 'Pel pelan plastik',
-    ],
-    [
-        'gambar' => 'favorite18.jpg',
-        'judul' => 'Pemeras Jeruk',
-    ]
-];
-?>
-
-<section class="home-sec-2">
-	<div class="prelative container">
-		<div class="row">
-			<div class="col-md-60">
-				<div class="title">
-					<p>Produk Plastik Favorit Lucky Star</p>
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="home-sec-2">
+	<div class="prelative container2">
 		<div class="row">
-			<?php foreach($mod_fav as $key => $value): ?>
-				<div class="col-md-10 col-30">
-					<div class="box-content">
-						<div class="image"><a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>"><img class="w-100" src="<?php echo $this->assetBaseurl; ?><?php echo $value['gambar'] ?>" alt=""></a></div>
-						<div class="judul">
-							<p><a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>"><?php echo $value['judul'] ?></a></p>
+			<div class="col-md-35">
+			<div class="box-content">
+					<div class="number">
+						<div class="images">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>02.png" alt="">
 						</div>
-						<div class="lihat"><a href="<?php echo CHtml::normalizeUrl(array('/home/producthw')); ?>">lihat produk</a></div>
+						<h5>Namas Approach</h5>
+					</div>
+					<div class="title">
+						<h3>Custom Clearance <br>Excellence</h3>
+						<p>Our trails of experience in Indonesia’s custom clearance are unmistakable and doubtless. The reputation emerged far even before the company was established, it was back then in the early 90s when our founder strived and struggled to pave the road and built networks in the customs department of Indonesia.</p>
+						<button class="learn-more"><a href="#">Learn More</a></button>
 					</div>
 				</div>
-			<?php endforeach ?>
-		</div>
-		<div class="lihat-semua">
-			<a href="#">lihat semua produk</a>
+			</div>
+			<div class="col-md-25">
+			<div class="box-content-image">
+					<img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl ?>home2.jpg" alt="">
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
+
 
 <section class="home-sec-3">
 	<div class="prelative container">
 		<div class="row">
 			<div class="col-md-60">
-				<div class="title">
-					<p>Dapatkan Koleksi Lengkap Produk Plastik Lucky Star</p>
+				<div class="no">
+					<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>03.png" alt="">
 				</div>
-				<div class="download">
-					<a href="#"><i class="fa fa-download"></i>Download Katalog</a>
+				<div class="logo-home">
+					<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>namas-logo-home3.png" alt="">
+				</div>
+				<h3>Full Realm Of Freight Forwarding</h3>
+				<p>There’s nothing we can’t do to get your cargo safe and sound. We build bridges, we paved roughs roads and we move mountains that gets in our way.</p>
+				<div class="row atas">
+					<div class="col-md-15">
+						<div class="box-content-atas">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>airplane.png" alt="">
+							<p>AIR</p>
+						</div>
+					</div>
+					<div class="col-md-15">
+						<div class="box-content-atas">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>sea.png" alt="">
+							<p>SEA</p>
+						</div>
+					</div>
+					<div class="col-md-15">
+						<div class="box-content-atas">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>road.png" alt="">
+							<p>ROAD</p>
+						</div>
+					</div>
+					<div class="col-md-15">
+						<div class="box-content-atas">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>RAIL.png" alt="">
+							<p>RAIL</p>
+						</div>
+					</div>
+				</div>
+				<div class="row bawah">
+					<div class="col-md-20">
+						<div class="box-content-bawah">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>stave.png" alt="">
+							<p>STEVEDORING</p>
+						</div>
+					</div>
+					<div class="col-md-20">
+						<div class="box-content-bawah">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>WAREHOUSE.png" alt="">
+							<p>WAREHOUSE & DEPOT</p>
+						</div>
+					</div>
+					<div class="col-md-20">
+						<div class="box-content-bawah">
+							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>CARGO.png" alt="">
+							<p>OVERSIZED CARGO</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<?php
-$mod_blog = [
-    1 => [
-        'gambar' => 'blog1.jpg',
-        'judul' => 'Cara mengurangi limbah plastik adalah dengan tidak membuangnya',
-        'kat' => 'artikel'
-    ],
-    [
-        'gambar' => 'blog2.jpg',
-        'judul' => 'Lucky Star berpartisi meramaikan Java Big Bang 2019',
-        'kat' => 'berita'
-    ],
-    [
-        'gambar' => 'blog3.jpg',
-        'judul' => 'Sale & Pameran Plastic Lucky Star di PRJ Expo Jakarta 2019',
-        'kat' => 'berita'
-    ],
-    [
-        'gambar' => 'blog4.jpg',
-        'judul' => 'Apa saja istilah di dunia plastik, dan mengapa penting mengetahuinya?',
-        'kat' => 'artikel'
-    ]
-];
-?>
 
 <section class="home-sec-4">
 	<div class="prelative container">
-		<div class="row">
-			<div class="col-md-60">
-				<div class="title">
-					<p>Blog Terbaru</p>
+		<div class="row no-gutters">
+			<div class="col-md-30">
+				<div class="image">
+					<img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl ?>home4.jpg" alt="">
 				</div>
 			</div>
-			<?php foreach($mod_blog as $key => $value): ?>
-			<div class="col-md-15 col-30">
+			<div class="col-md-30">
 				<div class="box-content">
-					<div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?><?php echo $value['gambar'] ?>" alt=""></div>
-					<div class="kategori">
-						<p><?php echo $value['kat'] ?></p>
-					</div>
-					<div class="judul">
-						<a><?php echo $value['judul'] ?></a>
-					</div>
-				</div>
-			</div>
-			<?php endforeach ?>
-		</div>	
-		<div class="lihat-semua">
-			<a href="#">lihat index blog</a>
-		</div>
-	</div>
-</section>
-
-<section class="home-sec-5">
-	<div class="prelative container">
-		<div class="row">
-			<div class="col-md-60">
-				<div class="title">
-					<p>mari berbicara dengan kami</p>
+					<h3>Let’s talk about your<br>cargo shipment</h3>
+					<p>Get free professional insights and solution regarding your custom clearance or cargo logistics. Namas’ logistic consultants will be ready 24/7 to help you.</p>
+					<button class="wa"><a href="#"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>wa.png" alt="">   Whatsapp Chat Now</a></button>
+					<button class="inquire"><a href="#"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>pencil.png" alt="">   Inquire Now</a></button>
 				</div>
 			</div>
 		</div>
-		<form class="fielddd">
-			<div class="form-row">
-				<div class="form-group col-md-30 col-30 ">
-					<label for="inputEmail4">NAMA ANDA</label>
-					<input type="text" class="form-control" id="" placeholder="">
-				</div>
-				<div class="form-group col-md-30 col-30 ">
-					<label for="inputEmail4">EMAIL</label>
-					<input type="text" class="form-control" id="" placeholder="">
-				</div>
-				<div class="form-group col-md-30 col-30">
-					<label for="inputEmail4">TELEPON</label>
-					<input type="nama" class="form-control" id="inputEmail4" placeholder="">
-				</div>
-				<div class="form-group col-md-30 col-30 ">
-					<label for="inputEmail4">NAMA PERUSAHAAN</label>
-					<input type="email" class="form-control" id="inputEmail4" placeholder="">
-				</div>
-			</div>
-		</form>
-		<div class="tertarik">
-			<p>KETERTARIKAN</p>
-		</div>
-		<form class="radioo">
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-				<label class="form-check-label" for="inlineRadio1">membeli produk</label>
-			</div>
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-				<label class="form-check-label" for="inlineRadio2">menjadi mitra / agen</label>
-			</div>
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-				<label class="form-check-label" for="inlineRadio1">lainnya</label>
-			</div>
-		</form>
-		<button class="form-control">submit</button>
 	</div>
 </section>
