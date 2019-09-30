@@ -3,6 +3,55 @@
     $controllers_ac = $this->id;
     $active_menu_pg = $controllers_ac.'/'.$e_activemenu;
 ?>
+<!-- opened -->
+<div class="app-menu headers_menuapp">
+  <div class="triggers_menu">
+    <a href="#"><img src="<?php echo $this->assetBaseurl ?>backs_tn_menuheader_blue.png" alt="" class="img img-fluid"></a>
+  </div>
+
+  <div class="tops_mnu-card">
+    <div class="row">
+      <div class="col">
+        <div class="logon"><img src="<?php echo $this->assetBaseurl ?>btview_menusheads.png" alt="" class="img-fluid"></div>
+      </div>
+      <div class="col text-right">
+        <a href="#"><img src="<?php echo $this->assetBaseurl ?>bt-close-menu.png" alt="" class="img img-fluid n_bt_close"></a>
+      </div>
+    </div>
+  </div>
+  <div class="menus_card">
+    <div class="tops_card">
+      BROWSE NAMAS LOGISTIC
+    </div>
+    <div class="middle_menu">
+      <ul class="list-unstyled">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Custom Clearance</a></li>
+        <li><a href="#">Freight Forwarding Services</a></li>
+        <li><a href="#">Project References</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="blocks_md_wa">
+      <span>Whatsapp Hotline & Chat</span>
+      <a href="#"><i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875</a>
+    </div>
+    <div class="socmeds-menu-left">
+      <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+      <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class="clear clearfix"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+
+<?php /*
 <header class="header <?php if ($active_menu_pg != 'home/index'): ?>insidepage<?php endif ?>">
 <div class="d-none d-sm-none d-md-block d-lg-block">
       <div class="prelative header-cont pt-3">
@@ -175,14 +224,6 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-      // $('.nl_popup a').live('hover', function(){
-      //     $('.popup_carts_header').fadeIn();
-      // });
-      // $('.popup_carts_header').live('mouseleave', function(){
-      //   setTimeout(function(){ 
-      //       $('.popup_carts_header').fadeOut();
-      //   }, 500);
-      // });
       $('a.closes_btn').on('click', function(){
         $('.collapsesn_viewmenu').removeClass('show');
       });
@@ -230,3 +271,4 @@
 
   });
 </script>
+*/ ?>

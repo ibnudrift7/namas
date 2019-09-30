@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/css/comon.css" />
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>    
 
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-4.0.0/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/css/styles.css"> 
 
@@ -66,33 +65,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
-<?php 
-/*
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=578821772130895";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-*/
- ?>
-    <?php echo $content ?>
+    <div class="outer-wrapper">
+        <?php echo $content ?>
+    </div>
     
-    <!-- <div id="back-top" class="t-backtop " style="display:none">
-    <div class="clear height-5"></div>
-        <a href="#top"><i class="fa fa-chevron-up"></i></a>
-    </div> -->
     <script type="text/javascript">
         $(window).load(function(){
         $('.t-backtop').hide();
@@ -121,19 +98,6 @@
                 }, 1000);
             });
         });
-    </script>
-
-    <script type="text/javascript">
-        // $(function(){
-        //         // pindah tulisan hero image
-        //         var fullw = $(window).width();
-        //         if (fullw <= 767) {
-        //             $('.tops-cont-insidepage .insd-container.content-up').addClass('hidden-xs');
-        //             var copyText = $('.tops-cont-insidepage .insd-container.content-up').html();
-        //             $( ".outer-inside-middle-content.back-white .tops-cont-insidepage" ).after( "<div class='pindahan_text-heroimage'></div>" );
-        //             $('.pindahan_text-heroimage').append(copyText);
-        //         };
-        // });       
     </script>
 </body>
 </html>

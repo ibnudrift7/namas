@@ -1,159 +1,124 @@
-@mons : 'Montserrat', sans-serif;
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@lato: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,700i,800,800i,900,900i&display=swap');
+@mons: 'Montserrat', sans-serif;
 
-.outer-content-page {
-	.content {
-		p {}
+.outer_contents{
+	padding-bottom: 0;
+	padding-left: 72px;
+}
 
-		h3,
-		h4,
-		h5 {}
+.headers_menuapp{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 280;
+
+	width: 72px;
+	height: 100%;
+	background-color: #f7f7f7;
+
+	.tops_mnu-card{
+		opacity: 0;
+	}
+	.menus_card{
+		opacity: 0;
 	}
 }
 
-.about-2.backabout-3k {
-	background: #fff;
-	min-height: 450px;
-	height: auto;
-	width: 100%;
-}
 
-.box-form.tl-contact-form {
-	display: block;
-	max-width: 675px;
-	margin: 0 auto;
+.app-menu.headers_menuapp.opened{
+	width: 420px;
+	.triggers_menu{
+		display: none;
+	}
 
-	.form-group {
-		label {
+	.tops_mnu-card{
+		background-color: #182152;
+		padding: 0.8rem 0.9rem;
+		opacity: 1;
+	}
+
+	.menus_card{
+		opacity: 1;
+		padding-top: 110px;
+		max-width: 332px;
+
+		.tops_card{
 			font-family: @mons;
-			font-size: 13px;
-			font-weight: 700;
-			color: #3a3a3a;
-			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 900;
+			color: #182152;
+			letter-spacing: 1px;
+
+			padding-left: 1rem;
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+			border-bottom: 2px solid #e2e2e2;
 		}
-
-		input,
-		textarea {
-			border: 1px solid #d6d6d6;
-			background-color: #fff;
+		.middle_menu{
+			padding-left: 1rem;
+			ul{
+				margin: 0;
+				li{
+					display: block;
+					padding: 0.25rem 0;
+					a{
+						font-family: @fira;
+						font-size: 17px;
+						font-weight: 500;
+						color: #182152;
+					}
+					a:hover,
+					a:focus{
+						text-decoration: none;
+						color: #080F35;
+					}
+				}
+				li:first-child{
+					padding-top: 0;
+				}
+			}
+			clear: both;
 		}
-
-		input {}
-
-		textarea {}
-	}
-
-	button.btns-submit-bt {
-		border-radius: 0;
-
-		background-color: #2b275c;
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
-		font-family: @mons;
-		font-size: 17px;
-		font-weight: 700;
-		color: #fff;
-	}
-
-	button.btns-submit-bt:hover,
-	button.btns-submit-bt:focus {
-		background-color: #07042F;
-	}
-}
-
-section.home-sec-3.footer2.subpage {
-	margin-top: 0;
-}
-
-.blocks-page-detailblog {
-	max-width: 907px;
-}
-
-section.home-sec-1.outers_product_indexs{
-	padding-top: 7rem;
-	padding-bottom: 5.5rem;
-	clear: both;
-}
-
-section.prodhw-dt{
-	padding-bottom: 6rem; 
-}
-section.footer{
-	min-height: 725px;
-}
-
-.prelatife{
-	position: relative;
-}
-.sub-section2{	
-	.pos-absolu-featureds_image{
-		img{}
-	}
-	.posabs_contnet{
-		position: absolute;
-		width: 100%;
-		top: 17%;
-		left: 0;
-	}
-	clear: both;
-}
-
-.container{
-	max-width: 1482px;
-}
-
-.menu-icon{
-	.bagss_ntop{
-		background: url('../images/list.png');
-		width: 47px;
-		height: 30px;
-		text-align: center;
-		span{
-			font-family: @lato;
-			font-size: 17px;
-			font-weight: 700;
-			color: #fff;
-			display: block;
-			text-align: center;
-			padding-left: 5px;
-			padding-top: 0px;
-		}
-	}
-	clear: both;
-}
-
-.logo-nheader{
-	margin-left: -5px;
-}
-.searchs_boxprd{
-	form{
-		.form-group{
-			label{
-				font-size: 15px;
+		.blocks_md_wa{
+			border-bottom: 2px solid #e2e2e2;
+			border-top: 2px solid #e2e2e2;
+			padding: 1rem 1rem;
+			margin-bottom: 1rem;
+			span{
+				display: block;
+				font-family: @fira;
+				font-size: 16px;
 				font-weight: 500;
-				color: #626262;
-				padding-right: 10px;
+				color: #182152;
 			}
-			input{
-				border-radius: 0px;
-				border: 0px;
-				border-bottom: 1px solid #b0b0b0;
-				max-width: 180px;
-
-				font-family: @mons;
-				// font-size: 13px;
-				// font-weight: 500;
-				// color: #000;
+			a{
+				font-size: 19px;
+				font-weight: 700;
+				color: #182152;
+			}
+			a:hover,
+			a:focus{
+				text-decoration: none;
+				color: #182152;
 			}
 		}
-		button.btn{
-			color: #626262;
-			i.fa{
-			color: #626262;
+		.socmeds-menu-left{
+			a{
+				i.fa{
+					color: #00358d;
+					font-size: 17px;
+				}
 			}
+			a:hover,
+			a:focus{
+				text-decoration: none;
+				color: #000;
+				font-size: 17px;
+			}
+			padding-left: 1rem;
 		}
 		clear: both;
 	}
-	clear: both;
+
+
 }
