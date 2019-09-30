@@ -13,28 +13,40 @@
                         <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>slide-1.jpg" alt="First slide">
                         <img class="w-100 d-block d-sm-none" src="<?php // echo Yii::app()->baseUrl.ImageHelper::thumb(600,980, '/images/'. $value->image2 , array('method' => 'adaptiveResize', 'quality' => '90')) ?>" alt="">
                         
-                        <!-- <div class="carousel-caption caption-slider-home mx-auto">
+                        <div class="carousel-caption caption-slider-home mx-auto">
                             <div class="prelatife container mx-auto">
                                 <div class="bxsl_tx_fcs">
                                     <div class="row no-gutters">
-                                        <div class="col-md-60 mx-auto py-4 text-center">
+                                        <div class="col-md-40 py-4 text-left">
                                             <div class="content">
-                                                <h5>Kami hadir dengan lebih dari sekedar produk plastik...</h5>
-                                                <p>Kami membawa berbagai inovasi dan kreasi aneka produk plastik menarik untuk mewarnai keseharian anda.</p>
+                                                <div class="hds_logo"><img src="<?php echo $this->assetBaseurl; ?>lgo-header.png" alt="" class="img img-fluid"></div>
+                                                <div class="py-4"></div>
+                                                <p>One powerful source for all your logistic needs</p>
+                                                <h2>Simplifying custom clearance & logistics</h2>
+                                                <h4>Experienced - Reliable - Proven</h4>
+                                                <div class="clearfix py-2"></div>
+                                                <a href="#" class="btn btn-info btns_more_fcs">LEARN MORE</a>
                                             </div>
-                                            <ol class="carousel-indicators">
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                            </ol>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
 
                     </div>
                 </div>
+        </div>
+
+        <div class="blocks_bottomn_scroll_fcs">
+            <div class="nx_btn">
+                <a href="#"><img src="<?php echo $this->assetBaseurl; ?>btn-toscrolls.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+
+        <div class="blocks_bottomn_wa_fcs">
+            <div class="nx_btn">
+                <a href="#"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
+            </div>
         </div>
     </div>
 
