@@ -15,7 +15,7 @@
         <div class="logon"><img src="<?php echo $this->assetBaseurl ?>btview_menusheads.png" alt="" class="img-fluid"></div>
       </div>
       <div class="col text-right">
-        <a href="#"><img src="<?php echo $this->assetBaseurl ?>bt-close-menu.png" alt="" class="img img-fluid n_bt_close"></a>
+        <a class="bts_close" href="#"><img src="<?php echo $this->assetBaseurl ?>bt-close-menu.png" alt="" class="img img-fluid n_bt_close"></a>
       </div>
     </div>
   </div>
@@ -49,7 +49,22 @@
   <div class="clear"></div>
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.app-menu.headers_menuapp .triggers_menu a').on('click', function(){
+          $('.app-menu.headers_menuapp').addClass('opened');
+          $('.app-menu.headers_menuapp').fadeIn();
+      });
+      $('.app-menu.headers_menuapp .tops_mnu-card a.bts_close').on('click', function(){
 
+        setTimeout(function(){
+            $('.app-menu.headers_menuapp').removeClass('opened');
+            $('.popup_carts_header').fadeOut();
+        }, 200);
+
+      });
+  });
+</script>
 
 <?php /*
 <header class="header <?php if ($active_menu_pg != 'home/index'): ?>insidepage<?php endif ?>">

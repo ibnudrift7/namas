@@ -1,4 +1,4 @@
-<section class="home-sec-1">
+<section id="section_hm_1" class="home-sec-1">
 	<div class="prelative container">
 		<div class="row">
 			<div class="col-md-30">
@@ -133,5 +133,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="clearfix clear"></div>
 	</div>
+	<div class="clearfix clear"></div>
 </section>
