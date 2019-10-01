@@ -14,7 +14,7 @@
                         <img class="w-100 d-block d-sm-none" src="<?php // echo Yii::app()->baseUrl.ImageHelper::thumb(600,980, '/images/'. $value->image2 , array('method' => 'adaptiveResize', 'quality' => '90')) ?>" alt="">
                         
                         <div class="carousel-caption caption-slider-home mx-auto">
-                            <div class="prelatife container mx-auto">
+                            <div class="prelatife container">
                                 <div class="bxsl_tx_fcs">
                                     <div class="row no-gutters">
                                         <div class="col-md-40 py-4 text-left">
@@ -39,13 +39,13 @@
 
         <div class="blocks_bottomn_scroll_fcs">
             <div class="nx_btn">
-                <a href="#"><img src="<?php echo $this->assetBaseurl; ?>btn-toscrolls.png" alt="" class="img-fluid"></a>
+                <a href="#" class="toscroll" data-id="section_hm_1"><img src="<?php echo $this->assetBaseurl; ?>btn-toscrolls.png" alt="" class="img-fluid"></a>
             </div>
         </div>
 
         <div class="blocks_bottomn_wa_fcs">
             <div class="nx_btn">
-                <a href="#"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
+                <a href="https://wa.me/6281553078875"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
             </div>
         </div>
     </div>
@@ -84,6 +84,6 @@
 
         });
     </script>
+    <?php echo $this->renderPartial('//layouts/_footer', array()); ?>
 </div>
-<?php echo $this->renderPartial('//layouts/_footer', array()); ?>
 <?php $this->endContent(); ?>

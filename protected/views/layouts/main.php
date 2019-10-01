@@ -16,7 +16,8 @@
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/css/comon.css" />
-    <title><?php echo CHtml::encode($this->pageTitle); ?></title>    
+    <!-- <title><?php // echo CHtml::encode($this->pageTitle); ?></title>   -->  
+    <title>Namas</title>
 
     <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-4.0.0/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl.Yii::app()->theme->baseUrl; ?>/asset/css/styles.css"> 
@@ -95,7 +96,7 @@
                 var sn_id = $(this).attr('data-id');
                 $('html, body').animate({
                     scrollTop: $("#"+ sn_id).offset().top
-                }, 1000);
+                }, 1250);
             });
         });
     </script>
