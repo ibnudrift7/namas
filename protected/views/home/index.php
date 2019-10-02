@@ -7,7 +7,7 @@
 				</div>
 			</div>
 			<div class="col-md-30">
-				<div class="box-content">
+				<div class="box-content px-4">
 					<div class="number">
 						<div class="images">
 							<img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>01.png" alt="">
@@ -29,7 +29,7 @@
 	<div class="prelative container2">
 		<div class="row">
 			<div class="col-md-35">
-			<div class="box-content">
+			<div class="box-content px-4">
 					<div class="number">
 						<div class="images">
 							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>02.png" alt="">
