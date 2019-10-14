@@ -6,7 +6,7 @@ if (isset($this->setting['about_hero_image'])) {
 }
 ?>
 
-<section class="insides_wrapper_pagein prelatife blog_pg">
+<section class="insides_wrapper_pagein prelatife blog_pg_detail">
   
   <section class="topspage_inside">
     <div class="prelatife container">

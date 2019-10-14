@@ -754,6 +754,16 @@ class HomeController extends Controller
 		));
 	}
 
+	public function actionBlogdetails()
+	{
+		$this->pageTitle = 'Blog - '.$this->pageTitle;
+		$this->layout='//layouts/column2';
+
+		$this->render('blogdetail_p', array(	
+		));
+	}
+	
+
 	public function actionBlogs()
 	{
 		$criteria = new CDbCriteria;

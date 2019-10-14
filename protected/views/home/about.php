@@ -6,14 +6,14 @@ if (isset($this->setting['about_hero_image'])) {
 }
 ?>
 
-<section class="insides_wrapper_pagein prelatife">
+<section class="insides_wrapper_pagein prelatife pg_about">
   
   <section class="cover_inside">
     <div class="prelatife container">
       <div class="insides py-5">
         <div class="row">
           <div class="col-md-30">
-            <div class="block-content">
+            <div class="block-content content-text">
               <div class="inners_logo pb-5">
                 <img src="<?php echo $this->assetBaseurl ?>insid-logo-top.png" valt="" class="img img-fluid">
               </div>
