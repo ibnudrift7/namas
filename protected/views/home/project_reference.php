@@ -24,21 +24,19 @@ if (isset($this->setting['about_hero_image'])) {
 
               <div class="py-5"></div>
               
-              <ul>
-                  <li><img src="<?php echo $this->assetBaseurl ?>ecovadis.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>arkema.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>henkel.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>akzonobel.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>merck.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>evonik.png" valt="" class="img img-fluid"></li>
-              </ul>
-              <ul>
-                  <li><img src="<?php echo $this->assetBaseurl ?>solvay.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>brenntag.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>dsm.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>basf.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>lanxess.png" valt="" class="img img-fluid"></li>
-                  <li><img src="<?php echo $this->assetBaseurl ?>dupont.png" valt="" class="img img-fluid"></li>
+              <ul class="list-inline mr-0 mb-0">
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>ecovadis.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>arkema.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>henkel.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>akzonobel.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>merck.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>evonik.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>solvay.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>brenntag.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>dsm.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>basf.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>lanxess.png" valt="" class="img img-fluid"></li>
+                  <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>dupont.png" valt="" class="img img-fluid"></li>
               </ul>
 
               <div class="py-5"></div>
