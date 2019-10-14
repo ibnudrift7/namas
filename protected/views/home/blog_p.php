@@ -40,14 +40,14 @@ if (isset($this->setting['about_hero_image'])) {
                                       <div class="col-md-20">
                                           <div class="boxs items">
                                               <div class="picture">
-                                                  <img src="<?php echo $this->assetBaseurl ?>pct-blog.jpg" alt="" class="img img-fluid">
+                                                  <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails')); ?>"><img src="<?php echo $this->assetBaseurl ?>pct-blog.jpg" alt="" class="img img-fluid"></a>
                                               </div>
                                               <div class="texts">
                                                   <div class="hg_ful">
-                                                      <h6>Title of blog / article here</h6>
+                                                      <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails')); ?>"><h6>Title of blog / article here</h6></a>
                                                       <p>Logistics Article</p>
                                                   </div>
-                                                  <a href="#" class="btn btn-link bt_moreblog">READ MORE</a>
+                                                  <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails')); ?>" class="btn btn-link bt_moreblog">READ MORE</a>
                                                   <div class="clear"></div>
                                               </div>
                                           </div>
