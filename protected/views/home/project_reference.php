@@ -6,7 +6,7 @@ if (isset($this->setting['about_hero_image'])) {
 }
 ?>
 
-<section class="insides_wrapper_pagein prelatife blog_pg">
+<section class="insides_wrapper_pagein prelatife pg_reference">
   
   <section class="topspage_inside">
     <div class="prelatife container">
@@ -17,10 +17,16 @@ if (isset($this->setting['about_hero_image'])) {
               <div class="inners_logo pb-5">
                 <img src="<?php echo $this->assetBaseurl ?>insid-logo-top.png" valt="" class="img img-fluid">
               </div>
-
-              <h2>Project References</h2>
-              <h3>Namas Logistics’ expertise speaks by itself</h3>
-              <p>We are grateful to be trusted by some of the best and top players in the Indonesian business / <br> industry. We built life-long term partnership with our customers, and became an integral part of <br> their chain supply process. Some of our respectful customers are listed as below:</p>
+              <div class="row">
+                <div class="col-md-40">
+                <h2>Project References</h2>
+                <h3>Namas Logistics’ expertise speaks by itself</h3>
+                <div class="py-2"></div>
+                <p>We are grateful to be trusted by some of the best and top players in the Indonesian business / industry. We built life-long term partnership with our customers, and became an integral part of their chain supply process. Some of our respectful customers are listed as below:</p>
+                  
+                </div>
+                <div class="col-md-20"></div>
+              </div>
 
               <div class="py-5"></div>
               
@@ -98,6 +104,8 @@ if (isset($this->setting['about_hero_image'])) {
   </section>
 
 
+  <?php echo $this->renderPartial('//layouts/_tops_footer_bcream', array()); ?>
 
+  <?php echo $this->renderPartial('//layouts/_footer', array()); ?>
   <div class="clear"></div>
 </section>
