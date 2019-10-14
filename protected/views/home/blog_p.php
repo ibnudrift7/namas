@@ -79,7 +79,8 @@ if (isset($this->setting['about_hero_image'])) {
     </div>
   </section>
 
+  <?php echo $this->renderPartial('//layouts/_tops_footer_bcream', array()); ?>
 
-
+  <?php echo $this->renderPartial('//layouts/_footer', array()); ?>
   <div class="clear"></div>
 </section>

@@ -37,7 +37,22 @@ if (isset($this->setting['about_hero_image'])) {
     </div>
   </section>
 
-
+  <section class="blocking-custom top-custom full_custom">
+    <div class="row no-gutters">
+      <div class="col-md-25 inners_text text-center my-auto">
+        <div class="ts_text px-5">
+          <p>“We are always ahead in thinking of solutions, anticipating the right move at the right time. A breakthrough that we invite you all to experience, a challenging powerful team at your side. With strong Indonesian roots and local custom knowledge, we are superior amongst others when it comes to to manage your logistics needs. ”</p>
+        </div>
+      </div>
+      <div class="col-md-35 banners_pict">
+        <ul class="list-inline">
+          <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>full_custom_pic1.jpg" alt="" class="img img-fluid w-100"></li>
+          <li class="list-inline-item"><img src="<?php echo $this->assetBaseurl ?>full_custom_pic2.jpg" alt="" class="img img-fluid w-100"></li>
+          <li class="list-inline-item last"><img src="<?php echo $this->assetBaseurl ?>full_custom_pic3.jpg" alt="" class="img img-fluid w-100"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <div class="clear"></div>
 </section>
