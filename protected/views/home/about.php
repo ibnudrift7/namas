@@ -68,7 +68,7 @@ if (isset($this->setting['about_hero_image'])) {
       <div class="prelatife container">
         <div class="row">
           <div class="col-md-35 py-5">
-            <div class="row">
+            <div class="row pt-3">
               <div class="col-md-30 borders">
                 <div class="inners">
                 <h3>Vision</h3>
@@ -82,7 +82,7 @@ if (isset($this->setting['about_hero_image'])) {
                   <li>To be the best at punctuality and work ethic.</li>
                   <li>Prioritize customer satisfaction.</li>
                   <li>To be transparent and traceable to customers.</li>
-                </ul> a
+                </ul>
                 </div>
               </div>
             </div>
@@ -95,8 +95,31 @@ if (isset($this->setting['about_hero_image'])) {
       <div class="clear"></div>
     </div>
   </section>
+
+  <section class="bottoms_about_cont">
+    <div class="py-5"></div>
+    <div class="prelatife container">
+      <div class="insides">
+        <div class="row">
+          <div class="col-md-30">
+            <div class="pictr"><img src="<?php echo $this->assetBaseurl ?>nxs_pull_about.jpg" alt="" class="img img-fluid"></div>
+          </div>
+          <div class="col-md-30">
+            <div class="content-text setcontent pt2 px-5">
+              <h3>Key Person</h3>
+              <p>With a background of logistic business expert that runs in the family, Fung Koeswandi had quickly progressed his career at the family business and few other supporting logistic related business. It is Namas Logistic, which is the brainchild result that express all the passion, energy and spirit of Fung Koeswandi as the 3rd generation of Mr. Sindudinata (Nam Group) in the logistic service business.</p>
+              <p>At the previous involvement in the family business, Fung Koeswandi gained various skillsets in logistic service sector and evenmore became experts in Custom Brokerage. Numerous off-shore cargo, import-export, and oversized cargo projects has been successfully cleared within the command and initiation of Fung Koeswandi at the family corporation. Now, with bigger disire to serve the customers, Fung Koeswandi has dedicated his entire energy building Namas Logistic to become your best and reliable partner for all kinds of logistic needs.</p>
+              <p>As the leader and founder of Namas Logistics, Fung’s goal is to provide solutions to all size of industries from small to large size companies with the high investment on technology, operational efficiencies and supply chain strategies. Fung’s operational background provided the foundation for developing the new modern strategy of custom clearance and also new way of transporting which provides unmatched visibility and total supply control to clients.</p>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="clear clearfix"></div>
+      </div>
+    </div>
+  </section>
   
-  <div class="py-5"></div>
+  <div class="py-4"></div>
   
 
   <?php echo $this->renderPartial('//layouts/_tops_footer_bcream', array()); ?>
