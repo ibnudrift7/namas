@@ -16,8 +16,8 @@
 				<div class="box-content">
 					<h3>Let’s talk about your<br>cargo shipment</h3>
 					<p>Get free professional insights and solution regarding your custom clearance or cargo logistics. Namas’ logistic consultants will be ready 24/7 to help you.</p>
-					<button class="wa"><a href="#"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>wa.png" alt="">   Whatsapp Chat Now</a></button>
-					<button class="inquire"><a href="#"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>pencil.png" alt="">   Inquire Now</a></button>
+					<button class="wa"><a href="https://wa.me/6281553078875"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>wa.png" alt="">   Whatsapp Chat Now</a></button>
+					<button class="inquire"><a href="<?php echo CHtml::normalizeUrl(array('/home/contactus')); ?>"><img class="img img-fluid" src="<?php echo $this->assetBaseurl ?>pencil.png" alt="">   Inquire Now</a></button>
 				</div>
 			</div>
 		</div>

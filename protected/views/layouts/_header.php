@@ -25,16 +25,16 @@
     </div>
     <div class="middle_menu">
       <ul class="list-unstyled">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Custom Clearance</a></li>
-        <li><a href="#">Freight Forwarding Services</a></li>
-        <li><a href="#">Project References</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">Home</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">About Us</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/customClearance')); ?>">Custom Clearance</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/frightService')); ?>">Freight Forwarding Services</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/projectReference')); ?>">Project References</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/blogp')); ?>">Blogs</a></li>
+        <li><a href="<?php echo CHtml::normalizeUrl(array('/home/contactus')); ?>">Contact Us</a></li>
       </ul>
     </div>
-
+    <div class="py-2"></div>
     <div class="blocks_md_wa">
       <span>Whatsapp Hotline & Chat</span>
       <a href="#"><i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875</a>
