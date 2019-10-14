@@ -6,104 +6,24 @@ if (isset($this->setting['about_hero_image'])) {
 }
 ?>
 
-<section class="cover-insides">
-    <div class="begrond">
-        <div class="prelative container">
-                <div class="teks">
-                    <div class="row">
-                        <div class="col-md-60">
-                            <h1 class="teks-cover">Hubungi Kami</h1>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</section>
-
-<section class="contact-1 outer-content-page back-cream">
-  <div class="prelatife container">
-      <div class="py-5"></div>
-      <div class="py-3"></div>
-
-      <div class="row small-content text-center">
-        <div class="col-md-8"></div>
-        <div class="col-md-44">
-          <p>Staff layanan pelanggan kami akan siap selalu untuk melayani kebutuhan anda.<br>
-          Kami terbuka untuk segala kesempatan untuk bekerjasama dalam bentuk keagenan atau distribusi, dan memperluas jaringan pemasaran Lucky Star Plastic di Indonesia maupun di mancanegara.</p>
-        </div>
-        <div class="col-md-8"></div>
-      </div>
-
-      <div class="py-5"></div>
-
-      <div class="sub-section2 pg-contact text-center">
-        <div class="row">
-          <div class="col-md-10"></div>
-          <div class="col-md-40">
-            <h5>Pabrik / Kantor Pusat</h5>
-            <div class="py-3"></div>
-
-            <p class="alamat">PT. Gunung Agung Sentosa <br>
-            Jl. Kepatihan Industri No.78, Guntung, Kepatihan <br>
-            Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174 <br>
-            Indonesia</p>
-            <div class="py-5"></div>
-            <div class="row">
-              <div class="col line-rights col-60">
-              <img src="<?php echo $this->assetBaseurl; ?>telp.png" alt="">
-                <div class="py-1"></div>
-                <p>
-                  <span>Telephone</span><br>
-                  +62 31 51161978
-                </p>
-                <div class="py-1"></div>
-
+<section class="insides_wrapper_pagein prelatife blog_pg">
+  <section class="topspage_inside">
+      <div class="prelatife container">
+          <div class="insides py-5">
+              <div class="row">
+                  <div class="col-md-30">
+                      <div class="block-content content-text">
+                          <div class="inners_logo pb-5">
+                              <img src="<?php echo $this->assetBaseurl ?>insid-logo-top.png" valt="" class="img img-fluid">
+                          </div>
+                          <h2>Contact Us</h2>
+                          <h3>Let's get your the best advice! <br> Our customer service staff is here for you.</h3>
+                          <h6>Namas Logistics Surabaya</h6>
+                      </div>
+                  </div>
               </div>
-              <div class="col line-rights col-60">
-              <img src="<?php echo $this->assetBaseurl; ?>mail.png" alt="">
-                <div class="py-1"></div>
-                <p>
-                  <span>Email</span><br>
-                  info@luckystar.co.id
-                </p>
-                <div class="py-1"></div>
-
-              </div>
-              <div class="col col-60">
-              <img src="<?php echo $this->assetBaseurl; ?>wa.png" alt="">
-                <div class="py-1"></div>
-                <p>
-                  <span>Whatsapp <a href="https://wa.me/6281717122131">(klik untuk chat)</a></span><br>
-                  0817 1712 2131
-                </p>
-                <div class="py-1"></div>
-
-              </div>
-            </div>
           </div>
-          <div class="col-md-10"></div>
-        </div>
-        <div class="clearfix"></div>
       </div>
-
-      <div class="py-5"></div>
-
-    <div class="clear clearfix"></div>
-  </div>
-</section>
-
-<section class="contact-2 outer-content-page back-white py-5">
-  <div class="prelatife container">      
-  <div class="py-3"></div>
-
-      <div class="text-center">
-        <h5>INKUIRI ONLINE - LUCKY STAR PLASTIC</h5>
-      </div>
-      <div class="py-1"></div>
-      <?php echo $this->renderPartial('//home/_form_contact', array('model'=> $model) ); ?>
-
-      <div class="clearfix"></div>
-      <div class="py-3"></div>
-
-  </div>
+  </section>
+  <div class="clear"></div>
 </section>
