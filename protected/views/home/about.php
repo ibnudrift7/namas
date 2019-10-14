@@ -82,7 +82,7 @@ if (isset($this->setting['about_hero_image'])) {
                   <li>To be the best at punctuality and work ethic.</li>
                   <li>Prioritize customer satisfaction.</li>
                   <li>To be transparent and traceable to customers.</li>
-                </ul>
+                </ul> a
                 </div>
               </div>
             </div>
