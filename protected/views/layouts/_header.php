@@ -66,6 +66,29 @@
   });
 </script>
 
+<div class="d-block d-sm-block d-md-none blocks_headermobile">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">
+        <img src="<?php echo $this->assetBaseurl ?>lgo-header.png" alt="<?php echo Yii::app()->name ?>" class="img img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/customClearance')); ?>">Custom Clearance</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/frightService')); ?>">Freight Forwarding Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/projectReference')); ?>">Project References</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/blogp')); ?>">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/contactus')); ?>">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
 <?php /*
 <header class="header <?php if ($active_menu_pg != 'home/index'): ?>insidepage<?php endif ?>">
 <div class="d-none d-sm-none d-md-block d-lg-block">

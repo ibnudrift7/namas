@@ -8,13 +8,13 @@
 					<div class="lgo"><img src="<?php echo $this->assetBaseurl ?>lgo-footers_dn.png" alt="" class="img img-fluid"></div>
 					<div class="blocks_menu">
 						<ul class="list-inline">
-							<li class="list-inline-item"><a href="#">Home</a></li>
-							<li class="list-inline-item"><a href="#">About Us</a></li>
-							<li class="list-inline-item"><a href="#">Custom Clearance</a></li>
-							<li class="list-inline-item"><a href="#">Freight Forwarding Services</a></li>
-							<li class="list-inline-item"><a href="#">Project References</a></li>
-							<li class="list-inline-item"><a href="#">Blogs</a></li>
-							<li class="list-inline-item"><a href="#">Contact Us</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">Home</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">About Us</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/customClearance')); ?>">Custom Clearance</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/frightService')); ?>">Freight Forwarding Services</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/projectReference')); ?>">Project References</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/blogp')); ?>">Blogs</a></li>
+						<li class="list-inline-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/contactus')); ?>">Contact Us</a></li>
 						</ul>
 					</div>
 					<div class="blocks_socmed">
@@ -32,7 +32,7 @@
 				</div>
 
 				<div class="blocks_copyrightsBtm">
-					<p>Copyright &copy; 2019 Namas Logistics - Surabaya, Indonesia. All Rights Reserved. Website design by <a title="Website Design Surabaya" target="_blank" href="https://www.markdesign.net">Mark Design</a>.</p>
+					<p>Copyright &copy; <?php echo date("Y"); ?> Namas Logistics - Surabaya, Indonesia. All Rights Reserved. Website design by <a title="Website Design Surabaya" target="_blank" href="https://www.markdesign.net">Mark Design</a>.</p>
 				</div>
 			</div>
 			<div class="col-md-22">

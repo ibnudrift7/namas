@@ -34,7 +34,7 @@
 						<div class="images">
 							<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>02.png" alt="">
 						</div>
-						<h5>Namas Approach</h5>
+						<h5>NAMAS EXPERTISE</h5>
 					</div>
 					<div class="title">
 						<h3>Custom Clearance <br>Excellence</h3>

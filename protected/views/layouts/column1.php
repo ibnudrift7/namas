@@ -19,7 +19,7 @@
                                     <div class="row no-gutters">
                                         <div class="col-md-40 py-4 text-left">
                                             <div class="content">
-                                                <div class="hds_logo"><img src="<?php echo $this->assetBaseurl; ?>lgo-header.png" alt="" class="img img-fluid"></div>
+                                                <div class="hds_logo d-none d-sm-block"><img src="<?php echo $this->assetBaseurl; ?>lgo-header.png" alt="" class="img img-fluid"></div>
                                                 <div class="py-4"></div>
                                                 <p>One powerful source for all your logistic needs</p>
                                                 <h2>Simplifying custom clearance & logistics</h2>
@@ -54,7 +54,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             
-            if ($(window).width() >= 768) {
+            // if ($(window).width() >= 768) {
                 var $item = $('#myCarousel_home.carousel .carousel-item'); 
                 var $wHeight = $(window).height();
                 $item.eq(0).addClass('active');
@@ -80,7 +80,7 @@
                   interval: 4000,
                   pause: "false"
                 });
-            }
+            // }
 
         });
     </script>
