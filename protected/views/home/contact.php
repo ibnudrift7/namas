@@ -79,7 +79,7 @@ if (isset($this->setting['about_hero_image'])) {
                     <div class="py-5"></div>
                     <div class="box-content">
                         <h5>Inquiry Form</h5>
-                        <h3>Please leave your details and drop us a line, <br> we’ll respond to you shortly.</h3>
+                        <h3>Please leave your details and drop us a line, we’ll respond to you shortly.</h3>
                     </div>
                     <form method="post" action="#">
                         <div class="row">
@@ -172,8 +172,7 @@ if (isset($this->setting['about_hero_image'])) {
                             <img src="<?php echo $this->assetBaseurl ?>WA-Logo-copy.png" valt="" class="img img-fluid">
                         </div>
                         <div class="py-2"></div>
-                        <h3>For a quicker response, please contact Namas Logistics <br>
-                        Via Whatsapp Chat <a href="#">(Click Here)</a></h3>
+                        <h3>For a quicker response, please contact Namas Logistics Via Whatsapp Chat <a href="#">(Click Here)</a></h3>
                     </div>
                 </div>
             </div>

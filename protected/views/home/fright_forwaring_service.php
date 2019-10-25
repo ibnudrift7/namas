@@ -109,8 +109,8 @@ if (isset($this->setting['about_hero_image'])) {
             </div>
         </div>
     </section>
-    <div class="py-5"></div>
-    <div class="py-4"></div>
+    <div class="py-5 d-none d-sm-block"></div>
+    <div class="py-4 d-none d-sm-block"></div>
     <div class="py-2"></div>
     <?php echo $this->renderPartial('//layouts/_tops_footer_bcream', array()); ?>
 
