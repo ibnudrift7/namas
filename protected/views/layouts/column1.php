@@ -48,6 +48,18 @@
                 <a href="https://wa.me/6281553078875"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
             </div>
         </div>
+
+        <div class="d-block d-sm-none blocks_bottom_mobfcs_fcn">
+            <div class="row">
+                <div class="col-30 brd_rght">
+                    <div class="inners_texts"><a href="#"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
+                </div>
+                <div class="col-30">
+                    <div class="inners_texts"><a href="#"><i class="fa fa-envelope"></i> &nbsp;Email</a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
     </div>
 
     <?php echo $content ?>
