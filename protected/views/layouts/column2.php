@@ -5,4 +5,5 @@
 
 <?php echo $content ?>
 
+<?php // echo $this->renderPartial('//layouts/_footer', array()); ?>
 <?php $this->endContent(); ?>

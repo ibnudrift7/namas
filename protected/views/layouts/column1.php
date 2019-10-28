@@ -50,7 +50,7 @@
         </div>
 
         <div class="d-block d-sm-none blocks_bottom_mobfcs_fcn">
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col-30 brd_rght">
                     <div class="inners_texts"><a href="#"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
                 </div>

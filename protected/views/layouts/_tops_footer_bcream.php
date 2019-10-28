@@ -5,11 +5,12 @@
 ?>
 
 <section class="home-sec-4 <?php if ($active_menu_pg != 'home/index'): ?>insideshome_4<?php endif ?>">
-	<div class="prelative container">
+	<!-- <div class="prelative container"> -->
 		<div class="row no-gutters">
 			<div class="col-md-30">
 				<div class="image">
 					<img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl ?>home4.jpg" alt="">
+					<div class="lines-blue"></div>
 				</div>
 			</div>
 			<div class="col-md-30">
@@ -21,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="clearfix clear"></div>
-	</div>
+		<!-- <div class="clearfix clear"></div>
+	</div> -->
 	<div class="clearfix clear"></div>
 </section>

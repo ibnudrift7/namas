@@ -1,9 +1,9 @@
 <footer class="foot">
-	<div class="prelative container">
+	<!-- <div class="prelative container"> -->
 		
 		<div class="row no-gutters">
 			<div class="col-md-38">
-				<div class="lefts_cont">
+				<div class="lefts_cont pl-5 ml-5">
 					
 					<div class="lgo"><img src="<?php echo $this->assetBaseurl ?>lgo-footers_dn.png" alt="" class="img img-fluid"></div>
 					<div class="blocks_menu">
@@ -31,7 +31,7 @@
 					</div>
 				</div>
 
-				<div class="blocks_copyrightsBtm">
+				<div class="blocks_copyrightsBtm ml-5 pl-5">
 					<p>Copyright &copy; <?php echo date("Y"); ?> Namas Logistics - Surabaya, Indonesia. All Rights Reserved. Website design by <a title="Website Design Surabaya" target="_blank" href="https://www.markdesign.net">Mark Design</a>.</p>
 				</div>
 			</div>
@@ -40,6 +40,6 @@
 			</div>
 		</div>
 
-		<div class="clear"></div>
-	</div>
+		<!-- <div class="clear"></div>
+	</div> -->
 </footer>
