@@ -52,10 +52,10 @@
         <div class="d-block d-sm-none blocks_bottom_mobfcs_fcn">
             <div class="row no-gutters">
                 <div class="col-30 brd_rght">
-                    <div class="inners_texts"><a href="#"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
+                    <div class="inners_texts"><a target="_blank" href="https://wa.me/6281553078875"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
                 </div>
                 <div class="col-30">
-                    <div class="inners_texts"><a href="#"><i class="fa fa-envelope"></i> &nbsp;Email</a></div>
+                    <div class="inners_texts"><a href="mailto:info@namaslogistics.com"><i class="fa fa-envelope"></i> &nbsp;Email</a></div>
                 </div>
             </div>
             <div class="clear"></div>
