@@ -12,7 +12,7 @@
                         
                         <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>slide-1.jpg" alt="First slide">
                         <img class="w-100 d-block d-sm-none" src="<?php // echo Yii::app()->baseUrl.ImageHelper::thumb(600,980, '/images/'. $value->image2 , array('method' => 'adaptiveResize', 'quality' => '90')) ?>" alt="">
-                        
+                        <div class="backs_mob_full"></div>
                         <div class="carousel-caption caption-slider-home mx-auto">
                             <div class="prelatife container">
                                 <div class="bxsl_tx_fcs">
@@ -25,7 +25,7 @@
                                                 <h2>Simplifying custom clearance & logistics</h2>
                                                 <h4>Experienced - Reliable - Proven</h4>
                                                 <div class="clearfix py-2"></div>
-                                                <a href="#" class="btn btn-info btns_more_fcs">LEARN MORE</a>
+                                                <a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>" class="btn btn-info btns_more_fcs">LEARN MORE</a>
                                             </div>
                                         </div>
                                     </div>
