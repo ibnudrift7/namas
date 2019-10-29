@@ -91,15 +91,25 @@
   </div>
 
   <div class="outer-blok-black-menuresponss-hides">
+  <div class="back-creamblue">
+    <div class="prelatife container">
+      <div class="row">
+        <div class="col">
+          <div class="blocksn_logo-centers">
+            <img src="<?php echo $this->assetBaseurl ?>btview_menusheads.png" alt="logo <?php echo Yii::app()->name; ?>" class="img-responsive center-block">
+          </div>
+        </div>
+        <div class="col">
+          <div class="fright">
+            <div class="hidesmenu-frightd"><a href="#" class="closemrespobtn"><img class="img img-fluid" src="<?php echo $this->assetBaseurl; ?>closen-btn.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="prelatife container">
-    <div class="clear height-45"></div>
-    <div class="fright">
-      <div class="hidesmenu-frightd"><a href="#" class="closemrespobtn"><img class="img img-fluid" src="<?php echo $this->assetBaseurl; ?>closen-btn.png" alt=""></a></div>
-    </div>
-    <div class="blocksn_logo-centers">
-      <img src="<?php echo $this->assetBaseurl ?>lgo-header.png" alt="logo <?php echo Yii::app()->name; ?>" class="img-responsive center-block">
-    </div>
-    <div class="py-3"></div>
+
+    <div class="py-4 my-2"></div>
     <div class="menus_card">
       <div class="tops_card">
         BROWSE NAMAS LOGISTIC
