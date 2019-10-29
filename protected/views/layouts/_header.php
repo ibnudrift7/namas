@@ -71,11 +71,12 @@
       <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">
         <img src="<?php echo $this->assetBaseurl ?>lgo-header.png" alt="<?php echo Yii::app()->name ?>" class="img img-fluid">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" -->
+      <button class="navbar-toggler showmenu_barresponsive" type="button" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse d-none" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">About Us</a></li>
@@ -88,6 +89,64 @@
       </div>
     </nav>
   </div>
+
+  <div class="outer-blok-black-menuresponss-hides">
+  <div class="prelatife container">
+    <div class="clear height-45"></div>
+    <div class="fright">
+      <div class="hidesmenu-frightd"><a href="#" class="closemrespobtn"><img class="img img-fluid" src="<?php echo $this->assetBaseurl; ?>closen-btn.png" alt=""></a></div>
+    </div>
+    <div class="blocksn_logo-centers">
+      <img src="<?php echo $this->assetBaseurl ?>lgo-header.png" alt="logo <?php echo Yii::app()->name; ?>" class="img-responsive center-block">
+    </div>
+    <div class="py-3"></div>
+    <div class="menus_card">
+      <div class="tops_card">
+        BROWSE NAMAS LOGISTIC
+      </div>
+      <div class="middle_menu">
+        <ul class="list-unstyled">
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">Home</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">About Us</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/customClearance')); ?>">Custom Clearance</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/frightService')); ?>">Freight Forwarding Services</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/projectReference')); ?>">Project References</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/blogp')); ?>">Blogs</a></li>
+          <li><a href="<?php echo CHtml::normalizeUrl(array('/home/contactus')); ?>">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="py-2"></div>
+      <div class="blocks_md_wa">
+        <span>Whatsapp Hotline & Chat</span>
+        <a target="_blank" href="https://wa.me/6281553078875"><i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875</a>
+      </div>
+      <div class="socmeds-menu-left">
+        <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+        <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="clear clearfix"></div>
+  </div>
+
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    // show and hide menu responsive
+    $('button.showmenu_barresponsive').on('click', function() {
+      $('.outer-blok-black-menuresponss-hides').slideToggle('slow');
+      return false;
+    });
+    $('a.closemrespobtn').on('click', function() {
+      $('.outer-blok-black-menuresponss-hides').slideUp('slow');
+      return false;
+    });
+
+  })
+</script>
 
 <?php /*
 <header class="header <?php if ($active_menu_pg != 'home/index'): ?>insidepage<?php endif ?>">
