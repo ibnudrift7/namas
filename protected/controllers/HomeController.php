@@ -750,7 +750,27 @@ class HomeController extends Controller
 		$this->pageTitle = 'Blog - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('active = "1"');
+		$criteria->addCondition('description.language_id = :language_id');
+		$criteria->params[':language_id'] = $this->languageID;
+		$criteria->order = 'date_input DESC';
+		
+		if ( isset($_GET['topik']) AND $_GET['topik'] != '' ) {
+			$criteria->addCondition('t.topik_id = :sn_topikid');
+			$criteria->params[':sn_topikid'] = intval($_GET['topik']);
+		}
+
+		$dataBlog = new CActiveDataProvider('Blog', array(
+			'criteria'=>$criteria,
+		    'pagination'=>array(
+		        'pageSize'=>12,
+		    ),
+		));		
+
 		$this->render('blog_p', array(	
+			'dataBlog'=>$dataBlog,
 		));
 	}
 
@@ -759,7 +779,33 @@ class HomeController extends Controller
 		$this->pageTitle = 'Blog - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
+		$id = intval($_GET['id']);
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('active = "1"');
+		$criteria->addCondition('description.language_id = :language_id');
+		$criteria->params[':language_id'] = $this->languageID;
+		$criteria->addCondition('t.id = :id');
+		$criteria->params[':id'] = intval($id);
+		$criteria->order = 'date_input DESC';
+		$dataBlog = Blog::model()->find($criteria);
+		if($dataBlog===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+
+		$criteria = new CDbCriteria;
+		$criteria->order = 'RAND()';
+		$criteria->addCondition('id != :id');
+		$criteria->params[':id'] = $dataBlog->id;
+		$dataBlogs = new CActiveDataProvider('Blog', array(
+			'criteria'=>$criteria,
+		    'pagination'=>array(
+		        'pageSize'=>3,
+		    ),
+		));
+
 		$this->render('blogdetail_p', array(	
+			'dataBlog' => $dataBlog,
+			'dataBlogs' => $dataBlogs,
 		));
 	}
 	
@@ -1300,7 +1346,7 @@ Staff dari perabotplastik.com akan menghubungi anda untuk konfirmasi dan penjela
 	}
 	public function actionCustomClearance()
 	{
-		$this->pageTitle = 'Blog - '.$this->pageTitle;
+		$this->pageTitle = 'Custom Clearance - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
 		$this->render('custom_clearance', array(	
@@ -1308,7 +1354,7 @@ Staff dari perabotplastik.com akan menghubungi anda untuk konfirmasi dan penjela
 	}
 	public function actionFrightService()
 	{
-		$this->pageTitle = 'Blog - '.$this->pageTitle;
+		$this->pageTitle = 'Freight Forwarding Services - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
 		$this->render('fright_forwaring_service', array(	
@@ -1316,7 +1362,7 @@ Staff dari perabotplastik.com akan menghubungi anda untuk konfirmasi dan penjela
 	}
 	public function actionProjectReference()
 	{
-		$this->pageTitle = 'Blog - '.$this->pageTitle;
+		$this->pageTitle = 'Project Reference - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
 		$this->render('project_reference', array(	

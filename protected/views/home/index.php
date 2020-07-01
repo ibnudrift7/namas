@@ -16,8 +16,10 @@
 					</div>
 					<div class="title">
 						<h3>For a smooth & punctual delivery, we go by a <u>breakthrough approach</u> where no one can.</h3>
-						<p>With strong Indonesian roots and local custom knowledge, we are superior amongst others when it comes to to manage your logistics needs. Adding unique value to the services, your cargo is in the best hands. We are always ahead in thinking of solutions, anticipating the right move at the right time. A breakthrough that we invite you all to experience, a challenging powerful team at your side.</p>
-						<button class="learn-more"><a href="#">Learn More</a></button>
+						<p>With strong Indonesian roots and local custom knowledge, we are superior amongst others when it comes to manage your logistics needs. Adding unique value to the services, your cargo is in the best hands. We are always ahead in thinking of solutions, anticipating the right move at the right time. A breakthrough that we invite you all to experience, a challenging powerful team at your side.</p>
+						<p>Our quality policy: Integrity - Commitment - Transparency - Loyalty - Determination</p>
+						<div class="py-3"></div>
+						<button class="learn-more"><a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>">Learn More</a></button>
 					</div>
 				</div>
 			</div>
@@ -39,7 +41,7 @@
 					<div class="title">
 						<h3>Custom Clearance <br>Excellence</h3>
 						<p>Our trails of experience in Indonesia’s custom clearance are unmistakable and doubtless. The reputation emerged far even before the company was established, it was back then in the early 90s when our founder strived and struggled to pave the road and built networks in the customs department of Indonesia.</p>
-						<button class="learn-more"><a href="#">Learn More</a></button>
+						<button class="learn-more"><a href="<?php echo CHtml::normalizeUrl(array('/home/customClearance')); ?>">Learn More</a></button>
 					</div>
 				</div>
 			</div>

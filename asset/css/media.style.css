@@ -1,0 +1,120 @@
+
+
+.blocking-custom.top-custom .inners_text .ts_text p.tops_bold{
+	font-size: 16px;
+	color: #c89700;
+	margin-bottom: 10px;
+}
+
+section.home-sec-1 .box-content .title p{
+	margin-bottom: 20px;
+}
+.outers_list_freight_forwar .box-content .images{
+	background: url(../images/bckn_top_lines_grey.jpg) no-repeat;
+	background-size: 100%;
+
+}
+.blocking-custom.top-custom.full_custom2 .pons_abos_full ol li, 
+.blocking-custom.top-custom.full_custom2 .pons_abos_full ul li,
+.blocking-custom.top-custom.full_custom2 .pons_abos_full p{
+	font-size: 14px;
+}
+.blocking-custom.top-custom.full_custom2 .pons_abos_full h3{
+	font-size: 31px;
+}
+section.home-sec-4 .image .lines-blue:after{
+	z-index: 25;
+}
+.blocks_nlog_about{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.blocks_nlog_about ul{
+	margin: 0; margin-bottom: 0;
+}
+.blocks_nlog_about ul li{
+	padding: 0;
+	margin: 0;
+}
+.blocks_nlog_about h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: #182152;
+	margin: 0;
+}
+section.bottoms_about_cont .backs_about_middlen2-new{
+	background: url('../images/backs_nxs_pull_about.jpg') bottom center no-repeat;
+	clear: both;	
+}
+.blocks_nlog_about.mt-0{
+	margin-top: 0 !important;
+}
+
+@media screen and (max-width: 1440px) {
+	
+	.blocking-custom.top-custom.full_custom2 .pons_abos_full{
+		bottom: -8%;
+	}
+
+	.insides_wrapper_pagein.contact_pg .topspage_inside .insides .block-content h3{
+		font-size: 24px;
+	}
+	section.home-sec-4.insideshome_4{
+		min-height: 335px;
+		position: relative;
+		z-index: 2;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+	section.home-sec-4.insideshome_4{
+		min-height: 312px;
+		position: relative;
+		z-index: 2;
+	}
+	.content-text h3 {
+	    font-size: 25px;
+	}
+	.content-text h3 br{
+		display: none;
+	}
+	.full_maps {
+	    margin-top: -25px !important;
+	}
+
+}
+
+@media screen and (min-width: 1700px) {
+
+	.bloc-h200 {
+	    height: 155px;
+	}
+	section.blocks2-bottomcontact .images{
+		right: -160px;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+
+	footer.foot{
+		padding-top: 4rem !important;
+	}
+
+	.insides_wrapper_pagein.blog_pg_detail{
+		background: none;
+		background-color: #fff;
+	}
+	.insides_wrapper_pagein.blog_pg .topspage_inside .insides .block-content h3, .insides_wrapper_pagein.blog_pg_detail .topspage_inside .insides .block-content h3, .insides_wrapper_pagein.contact_pg .topspage_inside .insides .block-content h3, .insides_wrapper_pagein.custompg .topspage_inside .insides .block-content h3, .insides_wrapper_pagein.freight_pg .topspage_inside .insides .block-content h3, .insides_wrapper_pagein.pg_reference .topspage_inside .insides .block-content h3{
+		font-size: 25px;
+	}
+	.insides_wrapper_pagein.blog_pg_detail .topspage_inside .insides .block-content .contentes_detail p{
+		/*text-align: justify;*/
+	}
+	section.bottoms_about_cont .backs_about_middlen2-new{
+		background: none;
+	}
+
+}

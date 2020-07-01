@@ -29,25 +29,25 @@ if (isset($this->setting['about_hero_image'])) {
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="col-md-55">
-                                    <p>Jl. Raya Satelit III - 21, Surabaya 60455 <br> East Java. Indonesia</p>
-                                <a href="#">View location at Google Map.</a>
+                                    <p>Ruko Dupak Mutiara F27 <br>Jl. Dupak 63 Surabaya<br> East Java. Indonesia</p>
+                                    <a target="_blank" href="https://goo.gl/maps/kAjDspgAbb3oYqoJA">View location at Google Map.</a>
                                 </div>
                             </div>
 
-                            <div class="row no-gutters">
+                            <!-- <div class="row no-gutters">
                                 <div class="col-md-5">
                                     <i class="fa fa-mobile"></i>
                                 </div>
                                 <div class="col-md-55">
                                     <p>+62 81 2232 5455</p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row no-gutters">
                                 <div class="col-md-5">
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="col-md-55">
-                                    <p>+62 81 2232 5455</p>
+                                    <p>+62 31 9924 7867</p>
                                 </div>
                             </div>
                             <div class="row no-gutters">
@@ -55,7 +55,7 @@ if (isset($this->setting['about_hero_image'])) {
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="col-md-55">
-                                    <p>+62 81 2232 5455</p>
+                                    <p><a href="mailto:info@namaslogistic.com">info@namaslogistic.com</a></p>
                                 </div>
                             </div>                                                       
                             
@@ -172,7 +172,7 @@ if (isset($this->setting['about_hero_image'])) {
                             <img src="<?php echo $this->assetBaseurl ?>WA-Logo-copy.png" valt="" class="img img-fluid">
                         </div>
                         <div class="py-2"></div>
-                        <h3>For a quicker response, please contact Namas Logistics Via Whatsapp Chat <a href="#">(Click Here)</a></h3>
+                        <h3>For a quicker response, please contact Namas Logistics Via Whatsapp Chat <a href="https://wa.me/6285235068383">(Click Here)</a></h3>
                     </div>
                 </div>
             </div>

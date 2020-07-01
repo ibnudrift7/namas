@@ -23,7 +23,7 @@
                                                 <div class="py-4"></div>
                                                 <p>One powerful source for all your logistic needs</p>
                                                 <h2>Simplifying custom clearance & logistics</h2>
-                                                <h4>Experienced - Reliable - Proven</h4>
+                                                <h4>INTEGRITY - COMMITMENT - TRANSPARENCY - LOYALITY - DETERMINATION</h4>
                                                 <div class="clearfix py-2"></div>
                                                 <a href="<?php echo CHtml::normalizeUrl(array('/home/about')); ?>" class="btn btn-info btns_more_fcs">LEARN MORE</a>
                                             </div>
@@ -45,14 +45,14 @@
 
         <div class="blocks_bottomn_wa_fcs">
             <div class="nx_btn">
-                <a href="https://wa.me/6281553078875"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
+                <a href="https://wa.me/6285235068383"><img src="<?php echo $this->assetBaseurl; ?>btn-fly-wa.png" alt="" class="img-fluid"></a>
             </div>
         </div>
 
         <div class="d-block d-sm-none blocks_bottom_mobfcs_fcn">
             <div class="row no-gutters">
                 <div class="col-30 brd_rght">
-                    <div class="inners_texts"><a target="_blank" href="https://wa.me/6281553078875"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
+                    <div class="inners_texts"><a target="_blank" href="https://wa.me/6285235068383"><i class="fa fa-whatsapp"></i> &nbsp;Whatsapp</a></div>
                 </div>
                 <div class="col-30">
                     <div class="inners_texts"><a href="mailto:info@namaslogistics.com"><i class="fa fa-envelope"></i> &nbsp;Email</a></div>
@@ -98,4 +98,35 @@
     </script>
     <?php echo $this->renderPartial('//layouts/_footer', array()); ?>
 </div>
+
+<?php
+/*<div class="modal fade nmodas_home" id="exampleModal_sn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <!-- <img src="<?php // echo Yii::app()->baseUrl.'/asset/images/NAMAS-01.jpg' ?>" alt="" class="img img-fluid"> -->
+        <img src="<?php echo Yii::app()->baseUrl.'/asset/images/lebaran-card.jpg' ?>" alt="" class="img img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+*/
+?>
+<script type="text/javascript">
+	$(function(){
+		// $('#exampleModal_sn').modal('show');
+	});
+</script>
+<style type="text/css">
+	@media (min-width: 576px){
+		.modal-dialog {
+		    max-width: 767px;
+		    margin: 1.75rem auto;
+		}
+		.modal-body{
+			padding: 0.5rem;
+		}
+	}
+</style>
+
 <?php $this->endContent(); ?>

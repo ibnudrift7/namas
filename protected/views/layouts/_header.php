@@ -37,7 +37,7 @@
     <div class="py-2"></div>
     <div class="blocks_md_wa">
       <span>Whatsapp Hotline & Chat</span>
-      <a href="#"><i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875</a>
+      <a href="https://wa.me/6285235068383"><i class="fa fa-whatsapp"></i> &nbsp;Click here</a>
     </div>
     <div class="socmeds-menu-left">
       <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
@@ -128,7 +128,7 @@
       <div class="py-2"></div>
       <div class="blocks_md_wa">
         <span>Whatsapp Hotline & Chat</span>
-        <a target="_blank" href="https://wa.me/6281553078875"><i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875</a>
+        <a target="_blank" href="https://wa.me/6285235068383"><i class="fa fa-whatsapp"></i> &nbsp;0852 3506 8383</a>
       </div>
       <div class="socmeds-menu-left">
         <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
@@ -159,7 +159,7 @@
 </script>
 
 <?php /*
-<header class="header <?php if ($active_menu_pg != 'home/index'): ?>insidepage<?php endif ?>">
+<header class="header <?php if ($active_menu_pg != 'home/index'): ?><meta http-equiv="Content-Type" content="text/html; charset=utf-8">insidepage<?php endif ?>">
 <div class="d-none d-sm-none d-md-block d-lg-block">
       <div class="prelative header-cont pt-3">
           <div class="row">

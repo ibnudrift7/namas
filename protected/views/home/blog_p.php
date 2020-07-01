@@ -23,7 +23,7 @@ if (isset($this->setting['about_hero_image'])) {
                                   <p>Latest Blogs & Articles</p>
                               </div>
                               <div class="col-md-30">
-                                  <nav aria-label="Page navigation example">
+                                  <!-- <nav aria-label="Page navigation example">
                                       <ul class="pagination justify-content-end">
                                           <li class="page-item"><a class="page-link" href="#">Page</a></li>
                                           <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -31,12 +31,13 @@ if (isset($this->setting['about_hero_image'])) {
                                           <li class="page-item"><a class="page-link" href="#">3</a></li>
                                           <li class="page-item"><a class="page-link" href="#">4</a></li>
                                       </ul>
-                                  </nav>
+                                  </nav> -->
                               </div>
                           </div>
                           <div class="outers_list_def_articles">
                               <div class="row">
-                                  <?php for ($i=1; $i < 10; $i++) { ?>
+
+                                  <?php /* for($i=1; $i < 10; $i++) { ?>
                                       <div class="col-md-20">
                                           <div class="boxs items">
                                               <div class="picture">
@@ -52,7 +53,29 @@ if (isset($this->setting['about_hero_image'])) {
                                               </div>
                                           </div>
                                       </div>
-                                  <?php } ?>
+                                  <?php } */ ?>
+                                  <?php if ($dataBlog->getTotalItemCount() > 0): ?>
+                                    <?php foreach ($dataBlog->getData() as $key => $value): ?>
+                                      <div class="col-md-20">
+                                        <div class="boxs items">
+                                              <div class="picture">
+                                                  <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails', 'id'=> $value->id, 'slug'=>Slug::Create($value->description->title))); ?>">
+                                                    <img class="img w-100" src="<?php echo Yii::app()->baseUrl.ImageHelper::thumb(349,204, '/images/blog/'. $value->image, array('method' => 'adaptiveResize', 'quality' => '90')) ?>" alt="">
+                                                  </a>
+                                              </div>
+                                              <div class="texts">
+                                                  <div class="hg_ful">
+                                                      <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails', 'id'=> $value->id, 'slug'=>Slug::Create($value->description->title))); ?>"><h6><?php echo substr($value->description->title, 0, 60).'...' ?></h6></a>
+                                                      <p>Logistics Article</p>
+                                                  </div>
+                                                  <a href="<?php echo CHtml::normalizeUrl(array('/home/blogdetails', 'id'=> $value->id, 'slug'=>Slug::Create($value->description->title))); ?>" class="btn btn-link bt_moreblog">READ MORE</a>
+                                                  <div class="clear"></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    <?php endforeach ?>
+                                    <?php endif ?>
+
                               </div>
                               <div class="clear"></div>
                           </div>

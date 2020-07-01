@@ -9,7 +9,7 @@
 					<img class="img img-fluid " src="<?php echo $this->assetBaseurl ?>namas-logo-home3.png" alt="">
 				</div>
 				<h3>Full Realm Of Freight Forwarding</h3>
-				<p>There’s nothing we can’t do to get your cargo safe and sound. We build bridges, we paved roughs roads and we move mountains that gets in our way.</p>
+				<p>There’s always something that we can do to get your cargo safe and sound. We build bridges, we paved roughs roads and we move mountains that gets in our way.</p>
 				<div class="row atas">
 					<div class="col-md-15 col-20">
 						<div class="box-content-atas">

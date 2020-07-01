@@ -20,7 +20,7 @@ if (isset($this->setting['about_hero_image'])) {
 
               <h2>Custom Clearance</h2>
               <h3>Our speciality in the Indonesian Custom Clearance are proven and reputable</h3>
-              <p>Our trails of experience in Indonesia’s custom clearance are unmistakable and doubtless. The reputation emerged far even before the company was established, it was back then in the early 70s when our founder strived and struggled to pave the road and built networks in the customs department of Indonesia.
+              <p>Our trails of experience in Indonesia’s custom clearance are unmistakable and doubtless. The reputation emerged far even before the company was established, it was back then in the early 90s when our founder strived and struggled to pave the road and built networks in the customs department of Indonesia.
               <br><br>
               Namas Logistics work with dedicated internal customs brokers, who knows all the bureaucracy in our country. Namas Logistics will handle all customs files efficiently and expertly - in house, not outsourced to any other middleman. We provide consultancy to set up your customs flow as smooth and cost efficiently as possible, and besides import, export, transit handling, Namas Logistics also organise fiscal representation, inspections, cargo checks, surveys, etc.</p>
               </div>

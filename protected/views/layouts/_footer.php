@@ -20,7 +20,7 @@
 					<div class="blocks_socmed">
 						<p class="d-inline-block pr-3">
 							<span>Whatsapp Hotline & Chat</span> &nbsp;
-							<i class="fa fa-whatsapp"></i> &nbsp;081 5530 78875 <a target="_blank" href="https://wa.me/6281553078875">(Click To Chat)</a>
+							<i class="fa fa-whatsapp"></i> &nbsp;<a target="_blank" href="https://wa.me/6285235068383">Click To Chat</a>
 						</p>
 						<p class="d-inline-block">
 							<span>Namas  Social Media</span> &nbsp;
